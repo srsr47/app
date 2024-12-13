@@ -17,9 +17,8 @@ Google Play Store에 등록된 멜론 앱과 유튜브 뮤직의 리뷰들 중 �
 <img width="754" alt="image" src="https://github.com/user-attachments/assets/5864f08c-13e0-4114-9a57-9e1073642579" />
 
 <img width="761" alt="image" src="https://github.com/user-attachments/assets/eaa34d29-a134-4f4a-b0b8-0aeba44665e0" />
-
-
 Google Play Store에서 리뷰를 크롤링하기 위한 라이브러리로 google-play-scraper을 사용하였고 2020년 이후에 작성된 걸로 최대 50,000개의 리뷰를 가져왔다. 위 사진은 멜론과 유튜브 뮤직 각각 가져온 코드이다.
+이 리뷰들을 보고 평점별로 분류하여 3점인 리뷰는 제외하고 4점 이상인 리뷰들은 긍정으로 라벨을 1로 분류하고 2점 이하인 리뷰들은 부정으로 0으로 분류했다.
 ### 데이터 라벨링 과정
 ### 기본적인 탐색적 데이터 분석하기
 ### 학습 loss 그래프
